@@ -1,0 +1,7 @@
+# backend/requirements.txt
+Flask==2.3.2             # Webアプリケーションフレームワーク
+Flask-SQLAlchemy==3.0.3  # FlaskでSQLAlchemy (ORM) を使うための拡張
+psycopg2-binary==2.9.9   # PostgreSQLデータベースに接続するためのドライバ
+google-generativeai==0.6.0 # Google Gemini APIをPythonから呼び出すためのライブラリ
+flask-cors==4.0.0        # CORS (Cross-Origin Resource Sharing) を有効にするための拡張
+gunicorn==20.1.0         # 本番環境でFlaskアプリケーションを動かすためのWSGI HTTPサーバー
